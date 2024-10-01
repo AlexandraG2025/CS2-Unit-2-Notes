@@ -42,6 +42,14 @@ public class Main {
       System.out.println(("12") + 4 + 3); // 1243
       System.out.println(12 + 4 + 3); // Not concatenations, just additon
 
+      // *** STRING METHODS ***
+      // .length () returns number of characters
+      int messageLength = message.length()
+      System.out.println("Length: " + messageLength);
+      // .length()-1 represents final index
+      System.out.println("Final Index: " + (message.length()-1))
+      
+
 
 
 
